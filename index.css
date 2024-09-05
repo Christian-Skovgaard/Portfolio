@@ -1,0 +1,102 @@
+/*color
+#c2dcf7
+#f5e1ce
+#f3f6ce
+#d9f6ce
+#c2f6d0
+#c2f6e4
+ */
+
+body {
+    background-color: #f5e1ce;
+}
+
+header {
+    background-color: #c2dcf7;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-bottom: 1%;
+    margin: 2%;
+
+}
+
+#Columns {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: calc(50% - 50vw);
+}
+.column {
+    border-color: white;
+    border-style: solid;
+    border-width: thick;
+    border-left-style: none;
+}
+
+
+.collumn_header {
+    font-size: 1em;
+    margin-left: 1vw;
+}
+
+.collumn_text {
+    margin: 0.5em;
+}
+
+#uddannelse {
+    background-color: #c2f6e4;
+    width: 22vw;
+    height: 80vw;
+}
+#uddannelse:hover {
+    padding-left: 5vw;
+}
+
+#stilling {
+    background-color: #c2f6d0;
+    width: 22vw;
+    height: 80vw;
+    /*format*/
+    display: block;
+
+}
+#kirkebilled {
+
+}
+#stilling:hover {
+    /*width: 35vw;*/
+    padding-left: 5vw;
+}
+
+
+
+#om_mig {
+    background-color: #d9f6ce;
+    width: 22vw;
+    height: 80vw;
+}
+#om_mig:hover {
+    padding-left: 5vw;
+}
+#noder {
+    background-color: #f3f6ce;
+    width: 22vw;
+    height: 80vw;
+}
+#noder:hover {
+    padding-left: 5vw;
+}
+footer {
+        background-image: url("footer.png");
+}
+
+#contacts {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#email {
+    margin-left: 5vw;
+}
+
+
+
